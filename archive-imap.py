@@ -75,9 +75,9 @@ def expungeContent(handle,dryrun=True):
 def main(argv=None):
 
 	c = Config()
-	c.server = "192.168.2.254"
-	c.user = "jmoyano@silice.biz"
-	c.password = "N7iTeZv3"
+	c.server = "mail.domain.org"
+	c.user = "user@fomain.org"
+	c.password = "secretpassword"
 	c.ssl = False
 	c.debug = 3
 	c.mailboxes = []
